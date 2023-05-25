@@ -4,3 +4,4 @@ autoMLVenv
 *.db
 *.pdf
 *.csv
+*.ods

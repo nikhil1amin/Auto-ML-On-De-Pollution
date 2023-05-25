@@ -3,4 +3,7 @@ matplotlib-inline
 pandas
 seaborn
 plotly
+<<<<<<< HEAD
 nbformat
+=======
+>>>>>>> 6b2dfa2ec652ba14afdffd28684553b502dfa03b
