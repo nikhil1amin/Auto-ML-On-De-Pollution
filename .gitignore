@@ -1,0 +1,6 @@
+text
+data
+autoMLVenv
+*.db
+*.pdf
+*.csv
