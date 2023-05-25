@@ -13,7 +13,7 @@
 
 ### Inter connections in Dbs:
 
-1. MainDb.idObj == siteDb.dSatz
+1. MainDb.idObj == siteDb.idSatz
 1. MainDb.param == chemDb.idSatz
 
 ### chemicals in mainDb
