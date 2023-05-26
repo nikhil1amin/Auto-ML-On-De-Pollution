@@ -28,3 +28,24 @@
 |     PM2.5     |                PM2.5                |    38989     |
 
 > Know thresholds
+
+### Map snipit
+
+```python
+heDB = sDbChem1.query('locationName == "Hagen Graf-von-Galen-Ring"')
+# plot a german map with the data
+fig = ex.choropleth(
+    sDbChem1,
+    locations='locationName',
+    locationmode='country names',
+    color='wert',
+    hover_name='locationName',
+    animation_frame='dtbeg',
+    animation_group='chemName',
+    # range_color=[0,sDbChem1['wert'].max()],
+    title='Stickstoffmonoxid [nitric oxide]',
+    labels={'wert':'Average Value', 'locationName':'Location'},
+    color_continuous_scale=ex.colors.sequential.Plasma
+)
+fig.show()
+```
